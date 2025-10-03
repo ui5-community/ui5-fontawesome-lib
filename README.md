@@ -3,12 +3,12 @@
 > **Enhance your SAP UI5/OpenUI5 applications with modern Font Awesome icons!** 🚀
 
 This library seamlessly integrates [Font Awesome](https://fontawesome.com/icons) icons into the SAP UI5 icon system, providing access to thousands of beautiful, scalable icons for your Fiori applications.
-Have a look at the [ui5-icon-explorer](https://github.com/mariokernich/ui5-icon-explorer) project or directly visit [ie.kernich.de](https://ie.kernich.de/) for an example integration and interactive showcase of all free Font Awesome icons together with the built-in icons. 
+Have a look at the [ui5-icon-explorer](https://github.com/ui5-community/ui5-icon-explorer) project or directly visit [ie.kernich.de](https://ie.kernich.de/) for an example integration and interactive showcase of all free Font Awesome icons together with the built-in icons. 
 
-[![Build app](https://github.com/mariokernich/ui5-fontawesome-lib/workflows/Build%20app/badge.svg)](https://github.com/mariokernich/ui5-fontawesome-lib/actions?query=workflow%3A%22Build+app%22)
-[![ESLint check](https://github.com/mariokernich/ui5-fontawesome-lib/workflows/ESLint%20check/badge.svg)](https://github.com/mariokernich/ui5-fontawesome-lib/actions?query=workflow%3A%22ESLint+check%22)
-[![TypeScript check](https://github.com/mariokernich/ui5-fontawesome-lib/workflows/TypeScript%20check/badge.svg)](https://github.com/mariokernich/ui5-fontawesome-lib/actions?query=workflow%3A%22TypeScript+check%22)
-[![UI5 Lint](https://github.com/mariokernich/ui5-fontawesome-lib/workflows/UI5%20Lint%20check/badge.svg)](https://github.com/mariokernich/ui5-fontawesome-lib/actions?query=workflow%3A%22UI5+Lint%22)
+[![Build app](https://github.com/ui5-community/ui5-fontawesome-lib/workflows/Build%20app/badge.svg)](https://github.com/ui5-community/ui5-fontawesome-lib/actions?query=workflow%3A%22Build+app%22)
+[![ESLint check](https://github.com/ui5-community/ui5-fontawesome-lib/workflows/ESLint%20check/badge.svg)](https://github.com/ui5-community/ui5-fontawesome-lib/actions?query=workflow%3A%22ESLint+check%22)
+[![TypeScript check](https://github.com/ui5-community/ui5-fontawesome-lib/workflows/TypeScript%20check/badge.svg)](https://github.com/ui5-community/ui5-fontawesome-lib/actions?query=workflow%3A%22TypeScript+check%22)
+[![UI5 Lint](https://github.com/ui5-community/ui5-fontawesome-lib/workflows/UI5%20Lint%20check/badge.svg)](https://github.com/ui5-community/ui5-fontawesome-lib/actions?query=workflow%3A%22UI5+Lint%22)
 [![Font Awesome](https://img.shields.io/badge/FontAwesome-7.0.0-blue.svg)](https://fontawesome.com/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![UI5](https://img.shields.io/badge/UI5-1.120.33+-green.svg)](https://sapui5.hana.ondemand.com/)
@@ -160,7 +160,7 @@ Want to use Font Awesome Pro icons? Here's how to extend this library:
 
 ```bash
 # Clone the repository
-git clone https://github.com/mariokernich/ui5-fontawesome-lib.git
+git clone https://github.com/ui5-community/ui5-fontawesome-lib.git
 cd ui5-fontawesome-lib
 
 # Install dependencies
@@ -226,7 +226,7 @@ This project is licensed under the Apache Software License, version 2.0 - see th
 ## 🔗 Links
 
 - 📦 [NPM Package](https://www.npmjs.com/package/ui5-fontawesome-lib)
-- 🐙 [GitHub Repository](https://github.com/mariokernich/ui5-fontawesome-lib)
+- 🐙 [GitHub Repository](https://github.com/ui5-community/ui5-fontawesome-lib)
 - 📚 [Font Awesome Documentation](https://fontawesome.com/docs)
 - 🎯 [SAP UI5 Documentation](https://sapui5.hana.ondemand.com/)
 

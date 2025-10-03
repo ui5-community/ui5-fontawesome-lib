@@ -2,7 +2,7 @@ name: Build app
 
 on:
     push:
-        branches: [main, dev]
+        branches: [main]
     pull_request:
         branches: [main, dev]
 
@@ -10,18 +10,13 @@ jobs:
     build:
         runs-on: ubuntu-latest
 
-        strategy:
-            matrix:
-                node-version: [22.x]
-
         steps:
             - name: 🔨 checkout repository
-              uses: actions/checkout@v4
-            - name: 🔨 use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v4
+              uses: actions/checkout@v5
+            - name: 🔨 use Node.js 22
+              uses: actions/setup-node@v5
               with:
-                  node-version: ${{ matrix.node-version }}
-                  cache: "npm"
+                  node-version: "22"
             - name: 🔨 install package dependencies
               run: npm ci
             - name: 🔨 run test build
