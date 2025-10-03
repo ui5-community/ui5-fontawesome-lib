@@ -1,4 +1,4 @@
-name: Build and Deploy to FTP
+name: Publish to CDN
 
 on:
   push:

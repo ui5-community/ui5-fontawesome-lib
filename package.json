@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mariokernich/ui5-fontawesome-lib.git"
+    "url": "https://github.com/ui5-community/ui5-fontawesome-lib.git"
   },
   "keywords": [
     "ui5",
