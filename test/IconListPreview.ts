@@ -80,7 +80,7 @@ const page = new Page({
 				type: "Ghost",
 				icon: "sap-icon://fa-brands/github",
 				press: () => {
-					window.open("https://github.com/mariokernich/ui5-fontawesome-lib", "_blank");
+					window.open("https://github.com/ui5-community/ui5-fontawesome-lib", "_blank");
 				}
 			}),
 			
