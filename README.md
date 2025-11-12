@@ -47,11 +47,11 @@ If using TypeScript, add `ui5-fontawesome-lib` to `types` definition.
 
 ```json
 {
-	"compilerOptions": {
-		"types": [
-			"@sapui5/ts-types-esm",
-			"ui5-fontawesome-lib"
-		]
+  "compilerOptions": {
+    "types": [
+      "@sapui5/ts-types-esm",
+      "ui5-fontawesome-lib"
+    ]
   }
 }
 ```
