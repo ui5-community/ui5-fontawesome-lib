@@ -43,6 +43,19 @@ Add the `fontawesome.icons.lib` library dependency to your `manifest.json` and f
 }
 ```
 
+If using TypeScript, add `ui5-fontawesome-lib` to `types` definition.
+
+```json
+{
+	"compilerOptions": {
+		"types": [
+			"@sapui5/ts-types-esm",
+			"ui5-fontawesome-lib"
+		]
+  }
+}
+```
+
 ### Method 1: Using NPM Package (Recommended)
 
 Install Dependencies
