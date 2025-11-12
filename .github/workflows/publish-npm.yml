@@ -3,7 +3,7 @@ name: Publish to NPM
 on:
   push:
     tags:
-      - "v*" 
+      - "v*"
 
 env:
   HUSKY_SKIP: true
@@ -12,21 +12,26 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - name: 🔨 checkout repository
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v5
+      - name: 🔨 use Node.js 22
+        uses: actions/setup-node@v5
         with:
           node-version: "22"
 
-      - name: Install dependencies
+      - name: 🔨 install dependencies
         run: npm ci
 
-      - name: Publish to NPM
+      - name: 🔨 build project
+        run: npm run build
+
+      - name: 🔨 publish to NPM
         run: |
             echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
             echo ":::: Publishing as $(npm whoami)"
-            npm run release:publish
-            env:
+            npm publish
+        env:
             NPM_TOKEN: ${{ secrets.NPM_RELEASE_AUTH_TOKEN }}
