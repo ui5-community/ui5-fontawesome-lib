@@ -24,7 +24,8 @@
     "src/**/*",
     "LICENSE",
     "README.md",
-    "ui5.yaml"
+    "ui5.yaml",
+    "tsconfig.json"
   ],
   "scripts": {
     "build": "npm run build:icons && ui5 build --clean-dest",
