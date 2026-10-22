@@ -9,14 +9,15 @@ Have a look at the [ui5-icon-explorer](https://github.com/ui5-community/ui5-icon
 [![ESLint check](https://github.com/ui5-community/ui5-fontawesome-lib/workflows/ESLint%20check/badge.svg)](https://github.com/ui5-community/ui5-fontawesome-lib/actions?query=workflow%3A%22ESLint+check%22)
 [![TypeScript check](https://github.com/ui5-community/ui5-fontawesome-lib/workflows/TypeScript%20check/badge.svg)](https://github.com/ui5-community/ui5-fontawesome-lib/actions?query=workflow%3A%22TypeScript+check%22)
 [![UI5 Lint](https://github.com/ui5-community/ui5-fontawesome-lib/workflows/UI5%20Lint%20check/badge.svg)](https://github.com/ui5-community/ui5-fontawesome-lib/actions?query=workflow%3A%22UI5+Lint%22)
-[![Font Awesome](https://img.shields.io/badge/FontAwesome-7.0.0-blue.svg)](https://fontawesome.com/)
+[![Font Awesome](https://img.shields.io/badge/FontAwesome-7.3.1-blue.svg)](https://fontawesome.com/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![UI5](https://img.shields.io/badge/UI5-1.120.33+-green.svg)](https://sapui5.hana.ondemand.com/)
+[![UI5](https://img.shields.io/badge/UI5-1.71+-green.svg)](https://sapui5.hana.ondemand.com/)
 
 ## 🎯 Features
 
 - ✨ **Seamless Integration**: Use Font Awesome icons with standard UI5 Icon controls
 - 🎨 **3 Icon Styles**: Regular, Solid, and Brand icons
+- 🕰️ **Backwards compatible**: Works with UI5 1.71 and newer (uses `sap/ui/core/Lib` when available, falls back to `Core#initLibrary` on older releases)
 
 ## 📋 Icon Mapping
 
@@ -33,7 +34,7 @@ Add the `fontawesome.icons.lib` library dependency to your `manifest.json` and f
 ```json
 {
   "dependencies": {
-    "minUI5Version": "1.120.33",
+    "minUI5Version": "1.71.0",
     "libs": {
       "sap.ui.core": {},
       "sap.m": {},
